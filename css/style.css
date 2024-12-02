@@ -1,0 +1,205 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-logo{
+    height:60px;
+    margin: 2px 1px;
+}
+.nav-link{
+    color:#5e0847;
+    font-weight: bold;
+}
+.colour-red{
+    color:#5e0847;
+}
+
+.colour-orange{
+    color: #5e0847;
+}
+
+.colour-purple{
+    color: #5e0847;
+}
+
+.colour-blue{
+    color: #1082ce;
+}
+
+.colour-green{
+    color:#095ca9;
+}
+
+.colour-yellow{
+    color: #fbc108;
+}
+
+.header-background {
+    background-color: #ffffff;
+}
+
+.section-colour{
+    background-color: #d3e7f3;
+}
+
+.register-btn {
+    background-color: #5e0847;;
+}
+
+/*******************************/
+/******* Page Header CSS *******/
+/*******************************/
+.page-header {
+    position: relative;
+    margin-bottom: 45px;
+    padding: 210px 0 90px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/diplomat4.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-header h2 {
+    position: relative;
+    color: #FDBE33;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+.page-header h2::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    left: calc(50% - 50px);
+    bottom: 0;
+    background: #FDBE33;
+}
+
+.page-header a {
+    position: relative;
+    padding: 0 12px;
+    font-size: 22px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.page-header a:hover {
+    color: #FDBE33;
+}
+
+.page-header a::after {
+    position: absolute;
+    content: "/";
+    width: 8px;
+    height: 8px;
+    top: -2px;
+    right: -7px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.page-header a:last-child::after {
+    display: none;
+}
+
+li:hover{
+    color: #fbc108;
+}
+
+@media (max-width: 991.98px) {
+    .page-header {
+        padding: 60px 0;
+    }
+    
+    .page-header h2 {
+        font-size: 45px;
+    }
+    
+    .page-header a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .page-header {
+        padding: 45px 0;
+    }
+    
+    .page-header h2 {
+        font-size: 35px;
+    }
+    
+    .page-header a {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 350px){    
+    .footer-logo{
+        height: 40px;
+    }
+}
+
+/* Center Button on Carousel Text
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .title {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 3vw;
+  }
+
+  .title2 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2vw;
+    font-family: Oxygen;
+  }
+
+  
+  .headers-text-separator {
+    color: #5e0847;
+  }
+
+ */
+
+ .carousel-caption {
+    block-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.caption-title {
+    font-size: 5vw;
+}
+
+.caption-title2 {
+    font-family: Oxygen;
+}
+
+  .mission {
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-family: Oxygen;
+  }
+
+  .all-footer {
+    color: #ffffff;
+  }
+
+  
+
