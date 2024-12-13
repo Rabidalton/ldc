@@ -1,9 +1,9 @@
 .theme {
-    margin-left: 10px;
+    margin-inline-start: 10px;
 }
 
 .theme-img {
-    height: 30px;
+    block-size: 30px;
     background-color: white;
     padding: 0.5px;
     border-radius: 50%;
@@ -25,16 +25,16 @@
 /*******************************/
 .team {
     position: relative;
-    width: 100%;
+    inline-size: 100%;
     padding: 50px 0 50px 0;
-    height: 500px;
+    block-size: 500px;
 }
 .team .container{
-    height: 800px;
+    block-size: 800px;
 }
 .team .team-item {
     position: relative;
-    margin-bottom: 35px;
+    margin-block-end: 35px;
 }
 
 .team .team-img {
@@ -46,8 +46,8 @@
 }
 
 .team .team-img img {
-    width: 100%;
-    margin-bottom: -15px;
+    inline-size: 100%;
+    margin-block-end: -15px;
     transition: .3s;
 }
 
@@ -59,11 +59,11 @@
 
 .team .team-text {
     position: absolute;
-    width: calc(100% - 40px);
-    height: 70px;
-    margin-bottom: 3px;
-    bottom: 0;
-    left: 20px;
+    inline-size: calc(100% - 40px);
+    block-size: 70px;
+    margin-block-end: 3px;
+    inset-block-end: 0;
+    inset-inline-start: 20px;
     padding: 2px 0;
     text-align: center;
     background: #ffffff;
@@ -74,11 +74,11 @@
 .team .team-text h2 {
     font-size: 16px;
     font-weight: 700;
-    margin-bottom: 0.5px;
+    margin-block-end: 0.5px;
 }
 
 .team .team-text p {
-    margin-bottom: 2px;
+    margin-block-end: 2px;
 }
 
 .team .team-social {
@@ -88,10 +88,10 @@
 
 .team .team-social a {
     display: inline-block;
-    width: 25px;
-    height: 25px;
+    inline-size: 25px;
+    block-size: 25px;
     margin: 0 3px;
-    margin-bottom: 1px;
+    margin-block-end: 1px;
     padding: 3px 0;
     text-align: center;
     font-size: 12px;
@@ -107,7 +107,7 @@
 
 /*
 .team .team-item:hover .team-text {
-    height: 160px;
+    block-size: 160px;
 } */
 
 /*******************************/
@@ -115,25 +115,25 @@
 /*******************************/
 .about {
     position: relative;
-    width: 100%;
+    inline-size: 100%;
     padding: 45px 0;
 }
 
 .about .section-header {
-    margin-bottom: 30px;
-    margin-left: 0;
+    margin-block-end: 30px;
+    margin-inline-start: 0;
 }
 
 .about .about-img {
-    width: 100%;
-    height: 400px;
+    inline-size: 100%;
+    block-size: 400px;
     border-radius: 20px;
     background-image: url(../img/diplomat3.jpeg);
 }
 
 @media (max-width: 991.98px) {
     .about .section-header {
-        margin-top: 30px;
+        margin-block-start: 30px;
     }
 }
 
@@ -143,13 +143,13 @@
 /*******************************/
 .section-header {
     position: relative;
-    width: 100%;
-    max-width: 700px;
+    inline-size: 100%;
+    max-inline-size: 700px;
     margin: 0 auto 45px auto;
 }
 
 .section-header p {
-    margin-bottom: 5px;
+    margin-block-end: 5px;
     position: relative;
     font-size: 22px;
     font-weight: 600;
@@ -187,8 +187,8 @@
 /*******************************/
 .thumbnail {
     border-radius: 20px;
-    width: 600px;
-    height: 250px;
+    inline-size: 600px;
+    block-size: 250px;
 }
 
 .text-dim {
@@ -199,10 +199,10 @@
 /******* testinominal CSS ********/
 /*******************************/
 .customer-reviews-text{
-    margin-left: 550px;
+    margin-inline-start: 550px;
     font-size: 30px;
     padding: 10px;
-    margin-top: 50px;
+    margin-block-start: 50px;
 
 }
 .user-container{
@@ -210,53 +210,52 @@
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 50px 50px;
-    margin-top: -75px;
+    margin-block-start: -75px;
   }
   .user-card{
-    background-color: #F2F4F4;
-    width: 530px;
+    background-color: #5396f5;
+    inline-size: 560px;
     margin: 20px;
-    padding: 20px 10px;
     border-radius: 5px;
-    height: 290px;
+    block-size: 350px;
     position: relative;
   }
   .user-profile{
     display: block;
     border-radius: 50%;
     margin: 5px auto;
-    height: 80px;
-    margin-left: 0;
+    block-size: 80px;
+    margin-inline-start: 0;
   }
   .user-name{
     color: black;
     font-size: 20px;
     margin: 18px auto;
     padding: 10px;
-    margin-top: -85px;
-    margin-left: 90px;
+    margin-block-start: -85px;
+    margin-inline-start: 90px;
  }
  .user-name-email{
     color: black;
     font-size: 15px;
     margin: 18px auto;
     padding: 10px;
-    margin-top: -34px;
-    margin-left: 90px;
+    margin-block-start: -34px;
+    margin-inline-start: 90px;
  }
 .review-rating-img
 {
-    margin-top: -240px;
-    margin-left: 350px;
+    margin-block-start: -240px;
+    margin-inline-start: 350px;
 }
 .review-text{
     font-size: 18px;
-    margin-top: 50px;
+    margin-block-start: 50px;
     
 }
 .rating-star{
-    margin-top: -240px;
-    margin-left: 350px;
+    margin-block-start: -240px;
+    margin-inline-start: 350px;
 }
 .user-card:hover{
     background-color: darkgrey;
