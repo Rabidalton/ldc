@@ -182,13 +182,9 @@ section {
   }
   
   .contact-main {
-    
-    background-image: url(/images/volunteer/volunteer.jpg);
-    
     min-height: 100vh;
     background-size: cover;
     background-position: center;
-
     position: relative;
   }
   
