@@ -62,7 +62,27 @@ body{
     background-size: cover;
 }
 
+.volunteer-header {
+    position: relative;
+    margin-bottom: 45px;
+    padding: 210px 0 90px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/diplomat4.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .page-header h2 {
+    position: relative;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+.volunteer-header h2 {
     position: relative;
     color: #FDBE33;
     font-size: 60px;
@@ -70,6 +90,7 @@ body{
     margin-bottom: 20px;
     padding-bottom: 5px;
 }
+
 
 .page-header h2::after {
     position: absolute;

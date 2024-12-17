@@ -6,113 +6,109 @@
     <title>Unity Uplift</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/donation.css" />
-    <link rel="stylesheet" href="/css/home.css">
-    <script src="/js/home.js"></script>
+    <link rel="stylesheet" href="../css/home.css">
+    <script src="../js/home.js"></script>
 </head>
 <body>
     <!--Header-->
-    <nav class="navbar navbar-expand-lg bg-body-light shadow ">
+    <nav class="navbar navbar-expand-lg header-background fixed-top shadow">
         <div class="container-fluid">
-            <img class="nav-logo" src="../icon/logo-rectangle.PNG" />
+
+            <a class="navbar-brand" href="../index.html"><img src="../img/Logo1.jpeg" alt="Brand" height="50px" width="50px"></a>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                <ul class="navbar-nav  mb-2 nav-underline ">
+                <ul class="navbar-nav  mb-2 nav-underline" id="header">
                     <li class="nav-item">
-                        <a class="nav-link " href="../index.html">Home</a>
+                        <a class="nav-link text-color" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../pages/aboutus.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/ourwork.html">Our Work</a>
+                        <a class="nav-link" href="../index.html#events">Events</a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sponsorship.html">Sponsorship</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="../pages/donation.html">Donation</a>
+                        <a class="nav-link" href="aboutus.html#leadership">Leadership</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/blog.html">Blog</a>
+                        <a class="nav-link" href="#">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../pages/volunteer.html">Volunteer</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="../pages/faq.html">FAQ</a>
+                        <a class="nav-link" href="../pages/faq.html">FAQ</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../pages/contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
-            <a href="login.html"><button type="button" class="btn btn-outline-success">Login/Register</button></a>
+            <a href="../pages/login.html"><button type="button" class="btn btn-outline-info">Register</button></a>
+            <!--
             <div class="theme">
-              <img src="../images/light.png" class="theme-img" id="light" onclick="lightmode()" />
-              <img src="../images/dark.png" class="theme-img" id="dark" onclick="darkmode()" />
-          </div>
+                <img src="images/light.png" class="theme-img" id="light" onclick="lightmode()" />
+                <img src="images/dark.png" class="theme-img" id="dark" onclick="darkmode()" />
+            </div>
+            -->
         </div>
-      </nav>
+    </nav>
     <!--End of header-->
     <!-- main section of donation starts here  -->
-    <div class="slider-container">
-        <div class="slider-content">
-            <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2hhcml0eXxlbnwwfHwwfHx8MA%3D%3D"
-                alt="Image 1">
-            <img src="https://makeadiff.in/images/hero2-Home-MAD-Make-A-Difference,Top-NGO-in-India,Charity.jpg"
-                alt="Image 2">
-            <img src="https://media.istockphoto.com/id/1330986197/photo/the-woman-is-holding-a-red-heart.jpg?s=612x612&w=0&k=20&c=nEfqRUOo_8tiTPyGZCpU481BaQVhgaE3ojKlSD-fxh0="
-                alt="">
-            <div class="slider-text">
-                <h1 class="">Donate For A Better World</h1>
-                <p>Together We Advocate, Together We Impact</p>
-                <button type="button" class="btn btn-outline-success">Donate Now</button>
+    <div class="volunteer-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-info">JOIN LDC AS A SPONSOR</h2>
+                    <h4 class="text-white fw-bold">Do you wish to sponsor LDC or a specific event?</h4>
+                    <a href="../pages/contact.html"><button type="button" class="btn btn-outline-info">Contact Us Now</button></a>
+                    <h6 class="text-white fw-bold pt-5">Already contacted us?</h6>
+                    <a href="../pages/contact.html"><button type="button" class="btn btn-outline-info">Donate Here</button></a>
+                </div>
             </div>
         </div>
     </div>
     <!--cards-->
     <div class="cards ">
         <div class="card text-bg-dark">
-            <img src="/images/home/bgcard1.jpg" class="card-img" alt="...">
+            <img src="../img/volunteer.png" class="card-img" alt="...">
             <div class="card-img-overlay">
-                <h3 class="card-title">Donate Us</h3>
-                <p class="card-text">"Your donation has the power to transform lives. By contributing to our NGO, you're
-                    directly
-                    impacting communities in need, providing vital resources, education, healthcare, and support where
-                    it's needed most.
+                <h3 class="card-title">Upcoming Events</h3>
+                <p class="card-text">If you wish to know about our upcoming events for sponsorship purpose, check our events page. You can also contact us directly.
                 </p>
-                <a href="pages/donation.html"><button type="button" class="button">Donate Now</button></a>
+                <a href="../pages/contact.html"><button type="button" class="button">Contact Us</button></a>
             </div>
         </div>
         <div class="card text-bg-dark">
-            <img src="/images/home/bgcard2.jpg" class="card-img" alt="...">
+            <img src="../img/services.png" class="card-img" alt="...">
             <div class="card-img-overlay">
-                <h3 class="card-title">Join Us Now</h3>
-                <p class="card-text">Join our NGO and be a part of something greater than yourself. At our core, we're a
-                    community driven
-                    by passion, compassion, and purpose. By joining us, you'll have the opportunity to make a tangible
-                    difference in the lives of others
+                <h3 class="card-title">Join as Sponsor</h3>
+                <p class="card-text">Join LDC as an official sponsor for our organization and activities. If you are interested, please contact us for discussion.
                 </p>
-                <a href="/images/home/bgcard3.jpg"><button type="button" class="button">Join Us Now</button></a>
+                <a href="../pages/contact.html"><button type="button" class="button">Contact Us</button></a>
             </div>
         </div>
         <div class="card text-bg-dark">
-            <img src="/images/home/bgcard3.jpg" class="card-img" alt="...">
+            <img src="../img/donate.png" class="card-img" alt="...">
             <div class="card-img-overlay">
-                <h3 class="card-title">Get Invloved</h3>
-                <p class="card-text">"Make a meaningful impact by getting involved with our NGO! Whether you're
-                    passionate about
-                    education, healthcare, environmental sustainability, or social justice, there's a place for you in
-                    our diverse and dedicated community.
+                <h3 class="card-title">Donate</h3>
+                <p class="card-text">Already contacted and reached agreement with us? Do you just wish to make a single donation? Click below to make transaction. 
                 </p>
-                <a href="pages/volunteer.html"><button type="button" class="button">Get Invloved</button></a>
+                <a href="#"><button type="button" class="button">Donate</button></a>
             </div>
         </div>
     </div>
-    <!--cards end-->
+    <!--cards end
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-12">
@@ -162,7 +158,6 @@
 
         <div class="card-container">
             <div class="progress-card">
-                <!-- <h2>Project 1</h2> -->
                 <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTd8MTExNjUzNHx8ZW58MHx8fHx8"
                     alt="">
                 <h3>Childrens to get their home</h3>
@@ -179,7 +174,6 @@
                 </div>
             </div>
             <div class="progress-card">
-                <!-- <h2>Project 2</h2> -->
                 <img src="https://img.freepik.com/free-photo/medium-shot-mother-girl-home_23-2150275635.jpg" alt="">
                 <h3>Foster Care & Adoption</h3>
                 <p>Welcome to our guide on foster care and adoption! This journey is about understanding the beautiful
@@ -194,7 +188,6 @@
                 </div>
             </div>
             <div class="progress-card">
-                <!-- <h2>Project 3</h2> -->
                 <img src="https://auroveda.org/wp-content/uploads/2023/02/Join-Hands-with-an-NGO-and-Empower-Girls-Education.jpg"
                     alt="">
                 <h3>We encourage girls education</h3>
@@ -211,7 +204,6 @@
                 </div>
             </div>
             <div class="progress-card">
-                <!-- <h2>Project 3</h2> -->
                 <img src="https://hugsukraine.org/wp-content/uploads/2016/03/nonprofit-wp-themes.jpg" alt="">
                 <h3>The people to help themselves</h3>
                 <p> "Empowering Self-Help: Building Stronger Communities Together" Welcome to our platform dedicated to
@@ -227,7 +219,6 @@
                 </div>
             </div>
             <div class="progress-card">
-                <!-- <h2>Project 3</h2> -->
                 <img src="https://claritytocharity.com/wp-content/uploads/2017/11/b1.jpg" alt="">
                 <h3>Charity for everyone</h3>
                 <p> "Making Charity Accessible: Empowering Everyone to Give Back" we believe that giving back should be
@@ -291,62 +282,65 @@
         <div class="message" id="message">
             Thank you ❤️ We'll use your feedback to improve.
         </div>
-    </div>
-    <!--footer-->
-    <div class="bg-dark bg-gradient text-light p-4">
-        <div class="row">
-            <div class="col-lg-3 my-auto">
-                <img class="d-block" src="../icon/logo-rectangle.PNG" />
-                <p class="pt-3">Get in Touch with us:</p>
-                <div>
-                    <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp fs-2 p-2 pt-0"
-                            style="color: #ffffff;"></i></a>
-                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f fs-2 p-2 pt-0"
-                            style="color: #ffffff;"></i></a>
-                    <a href="https://www.instagram.com/roadtocode4u/"><i class="fa-brands fa-instagram fs-2 p-2 pt-0"
-                            style="color: #ffffff;"></i></a>
-                    <a href="https://twitter.com/roadtocode4u"><i class="fa-brands fa-x-twitter fs-2 p-2 pt-0"
-                            style="color: #ffffff;"></i></a>
-                    <a href="mailto:suraj@roadtocode.org"><i class="fa-regular fa-envelope fs-2 p-2 pt-0"
-                            style="color: #ffffff;"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-4 my-auto">
-                <p> Unity Uplift foundation is a non government organization,
-                    registered under the company Act 2013. It
-                    is set up to tackle the different types of problems, especially regarding children, disabled and
-                    women. We work for children's education, health, human rights...</p>
-            </div>
-            <div class="col-lg-2">
-                <p class="fs-4"><u>Important links:</u></p>
-                <ul>
-                    <li><a href="../index.html" class="text-decoration-none text-light">Home</a></li>
-                    <li><a href="../pages/aboutus.html" class="text-decoration-none text-light">About</a></li>
-                    <li><a href="../pages/ourwork.html" class="text-decoration-none text-light">Our Work</a></li>
-                    <li><a href="../pages/donation.html" class="text-decoration-none text-light">Donation</a></li>
-                    <li><a href="../pages/volunteer.html" class="text-decoration-none text-light">Volunteer</a></li>
-                    <li><a href="../pages/contact.html" class="text-decoration-none text-light">Contact</a></li>
-                    <li><a href="../pages/faq.html" class="text-decoration-none text-light">FAQ</a></li>
-                </ul>
-            </div>
-            <div class="col-lg-3 d-flex flex-column">
-                <a><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
-                    Biaf Road, Wagholi, Pune- 412207</a>
-                <br />
-                <a href="tel:9876541230" class="text-decoration-none text-light"><i class="fa-solid fa-phone"
-                        style="color: #ffffff;"></i> +91 98765 41230</a>
-                <br />
-                <a href="tel:9874563210" class="text-decoration-none text-light "><i class="fa-solid fa-phone"
-                        style="color: #ffffff;"></i> +91 98745 63210</a><br />
-                <a href="mailto:admin@unityuplift.org" class="text-decoration-none text-light"><i
-                        class="fa-solid fa-envelope" style="color: #ffffff;"></i>
-                    admin@unityuplift.org</a>
-            </div>
+    </div> -->
+
+    <footer class="pt-5 bg-dark all-footer mt-5">
+        <div class="row container mx-3">
+          <div class="col-6 col-md-2 mb-3">
+            <h5 class="text-info">About Us</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Mission</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Who Are We</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Meet Our Team</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Services</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Popular Links</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Conference</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Blog</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Sponsor</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Testimonials</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Other Links</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Contact US</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQ</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Register</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Volunteer</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Leadership</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-outline-info" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
         </div>
-        <hr />
-        <p class="text-center">Copyright © 2024 <a href="../index.html" class="link-warning text-decoration-none">Unity
-                Uplift</a></p>
-    </div>
+    
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top container mx-3">
+          <p>© 2024 John Pittman Gibson, CD. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+          </ul>
+        </div>
+      </footer>
     <!--end of footer-->
     <!-- <script>       
         let slideIndex = 0;
@@ -366,7 +360,7 @@
             setTimeout(carousel, 3000);
         }
     </script> -->
-     <script src="/js/donation.js"></script>
+     <script src="../js/donation.js"></script>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

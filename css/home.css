@@ -206,6 +206,7 @@ a{
 
 .scheme-text{
     font-weight: bold;
+    text-align: justify;
 }
 @media screen and (max-width:1100px) and (min-width:700px) {
     .cards {
@@ -400,3 +401,5 @@ a{
 .service-text {
     text-align: justify;
 }
+
+

@@ -17,6 +17,11 @@
     color: white;
 }
 
+/*Team Styling*/
+
+
+
+/*End of Team Styling*/
 
 
 
@@ -42,11 +47,11 @@
     overflow: hidden;
     border-style: solid;
     border-color: black;
-    border-width: 3px;
+    border-width: 2px;
 }
 
 .team .team-img img {
-    inline-size: 100%;
+    inline-size: 300px;
     margin-block-end: -15px;
     transition: .3s;
 }

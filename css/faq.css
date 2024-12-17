@@ -28,18 +28,18 @@
     width: 80%;
     margin: 10px;
     border-radius: 30px;
-    border: #fbc108 solid 3px;
+    border: #54B4D3 solid 3px;
     opacity: 80%;
     padding: 5px;
 
 }
 .imgdonor:hover{
-    box-shadow: #fbc108 0 0 3px 3px;
+    box-shadow: #54B4D3 0 0 3px 3px;
 }
 .accordion-item{
     border-radius: 15px;
     margin: 10px;
-    border: 3px solid #fbc108;
+    border: 3px solid #54B4D3;
 }
 .accordion-button{
     background-color:white;
@@ -79,7 +79,7 @@
     width: 60px;
     height: 57px;
     color: white;
-   background-color:  #fbc108;
+   background-color: #54B4D3
 }
 
 .row{

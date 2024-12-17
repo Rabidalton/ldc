@@ -59,16 +59,19 @@
                         <a class="nav-link" href="pages/aboutus.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
+                        <a class="nav-link" href="#events">Events</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sponsor</a>
+                        <a class="nav-link" href="./pages/sponsorship.html">Sponsorship</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./pages/aboutus.html#leadership">Leadership</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pages/blog.html">Blog</a>
+                        <a class="nav-link" href="#">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="pages/volunteer.html">Volunteer</a>
@@ -259,105 +262,100 @@
         </div>
     </div>
     <!--end of counter section-->
-    <!--Upcoming-->
-    <h2 class="text-center fs-1 colour-purple">Conferences</h2>
-    <h3 class="fs-3 text-center colour-blue mb-3">Our Upcoming Conferences</h3>
-    <div class="countdown-card section-colour">
-        <h3 class="fs-3 colour-red" id="gallery-subheading">LDC Conference - March 2025</h3>
-        <div class="test">
-            <div>
-                <img src="./img/diplomat2.jpeg" class="gallery-img" />
+
+    <!--Upcoming Conferences-->
+    <section>
+        <h2 class="text-center fs-1 text-info fw-bold" id="events">Events</h2>
+        <h4 class="fs-3 text-center text-dark mb-3">Upcoming Events</h4>
+
+        <div id="carouselExample" class="carousel slide">
+
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                <div class="countdown-card text-bg-info">
+                    <h3 class="text-dark" id="gallery-subheading">March 2025 Conference - Sinkor Palace</h3>
+                    <p class="text-light">Conference</p>
+                    <div class="test">
+                        <div>
+                            <img src="./img/sinkor-palace.jpeg" class="gallery-img" />
+                        </div>
+                        <p class="scheme-text my-auto"><strong>DAY ONE</strong> features a diplomatic symposium with dignitaries, business leaders, students, and young professionals discussing key national and global issues, creating resolutions, and engaging in debates.<br />
+                            <br />
+            
+                            <strong>DAY TWO</strong> offers a tour of the Liberia National Museum, exploring the nation's history and role in diplomacy, providing hands-on learning to enhance leadership skills in diplomacy.<br />
+                        </p>
+                    </div>
+            
+                    <a href="pages/login.html"><button type="button" class="btn btn-lg btn-outline-light">Register</button></a>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="countdown-card text-bg-info">
+                    <h3 class="fs-3 text-dark" id="gallery-subheading">November 2025 Conference - EJS Ministerial complex</h3>
+                    <p class="text-light">Conference</p>
+                    <div class="test">
+                        <div>
+                            <img src="./img/ejs-complex.jpeg" class="gallery-img" />
+                        </div>
+                        <p class="scheme-text my-auto"><strong>DAY ONE</strong> features a diplomatic symposium with dignitaries, business leaders, students, and young professionals discussing key national and global issues, creating resolutions, and engaging in debates.<br />
+                            <br />
+            
+                            <strong>DAY TWO</strong> offers a tour of the Libassa Ecolodge, to enjoy Liberia's wild and beautiful nature in an ecofriendly way.<br />
+                        </p>
+                    </div>
+            
+                    <a href="pages/login.html"><button type="button" class="btn btn-lg btn-outline-light">Register</button></a>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="countdown-card text-bg-info">
+                    <h3 class="fs-3 text-dark" id="gallery-subheading">July 2025 Conference - University of Liberia, Fendel Campus
+                    </h3>
+                    <p class="text-light">symposium</p>
+                    <div class="test">
+                        <div>
+                            <img src="./img/ul.jpg" class="gallery-img" />
+                        </div>
+                        <p class="scheme-text my-auto"><strong>DAY ONE</strong> features a diplomatic symposium with dignitaries, business leaders, students, and young professionals discussing key national and global issues, creating resolutions, and engaging in debates.<br />
+                            <br />
+            
+                            <strong>DAY TWO</strong> offers a visit at the U.S Embassy Library in Monrovia, exploring the US and Liberia sister relationship exchange and role in diplomacy, providing hands-on learning to enhance leadership skills in diplomacy.<br />
+                        </p>
+                    </div>
+            
+                    <a href="pages/login.html"><button type="button" class="btn btn-lg btn-outline-light">Register</button></a>
+                </div>
+              </div>
             </div>
-            <p class="fs-5 scheme-text my-auto"><strong>DAY ONE</strong> features a diplomatic symposium with dignitaries, business leaders, students, and young professionals discussing key national and global issues, creating resolutions, and engaging in debates.<br />
-                <br />
 
-                <strong>DAY TWO</strong> offers a tour of the Liberia National Museum, exploring the nation's history and role in diplomacy, providing hands-on learning to enhance leadership skills in diplomacy.<br />
+            <div id="carouselExampleControls" data-mdb-carousel-init class="carousel slide text-center carousel-dark" data-mdb-ride="carousel">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+      
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+            </div>
 
-                <img src="images/home/dislike.png" class="quantity" onclick="dec()" />
-                <span id="num2">10</span>
-                <img src="images/home/like.png" class="quantity" onclick="inc()" />
-                <span id="num1">152</span>
-            </p>
         </div>
-        <div class="test">
-            <div class="bg-warning p-2 m-1 rounded">
-                <p class="count">Schedule:<br /> 25<sup>th</sup> March 2025 </p>
-            </div>
-            <div class="bg-warning p-2 m-1 rounded">
-                <p class="count">Time inset-inline-start:<br /> <span id="countdown"></span> </p>
-            </div>
-        </div>
-    </div>
-    <!--end of upcoming-->
-    <!--work section-->
-    <section class="container">
-        <h2 class="text-center fs-1 colour-purple" id="services">Services</h2>
-        <h3 class="fs-3 text-center colour-blue mb-3">Services We Offer</h3>
-        <div class="row pt-3">
-            <div class="col-lg-4 col-lg-4 col-sm-12">
-                <img src="./img/international-relations.png" class="d-block"  alt="deal" height="100px" width="100px">
-                <h3 class="service-text">Master Negotiation</h3>
-                <p class="service-text">Unlock the secrets of effective negotiation with our comprehensive program designed to enhance your skills and confidence. Learn essential strategies and techniques through real-world scenarios, explore different negotiation styles, and build rapport with counterparts. We’ll cover conflict resolution and the importance of preparation for successful outcomes. Join us to transform your approach and achieve better results in every conversation!</p>
-            </div>
-
-            <div class="col-lg-4 col-lg-4 col-sm-12">
-                <img src="./img/diplomacy.png" class="d-block" alt="deal" height="100px" width="100px">
-                <h3 class="service-text">Master Global Diplomacy</h3>
-                <p class="service-text">your understanding of international relations with our dynamic program focused on global diplomacy. This course will equip you with the skills to navigate complex diplomatic environments, foster cross-cultural communication, and engage effectively with diverse stakeholders. You’ll explore key concepts, strategies, and real-world case studies, enhancing your ability to advocate for change and build meaningful partnerships.</p>
-            </div>
-
-            <div class="col-lg-4 col-lg-4 col-sm-12">
-                <img src="./img/leadership.png" class="d-block" alt="deal" height="100px" width="100px">
-                <h3 class="service-text">Lead with Strategic Vision</h3>
-                <p class="service-text">Empower yourself to become a transformative leader with our program focused on visionary leadership. Discover how to inspire and motivate others while driving meaningful change in your organization and community. You'll learn to articulate a clear vision, develop strategic goals, and create impactful initiatives. Through interactive workshops and real-world examples, you'll build the skills necessary to lead effectively and make a lasting difference.</p>
-            </div>
-
-        </div>  
     </section>
-    <!--end of services section-->
-    
-    <!-- Supporters Says
-    <div >
-        <h1 class="text-center fs-1 colour-purple">Testimonials</h1>
-        <h2 class="fs-3 text-center colour-blue mb-3">What our supporters say?</h2>
-        <div class="container d-flex justify-content-around ">
-            <div class="row">
-                <div class="col-md-4 col-sm-6 ">
-                    <div class="video-cart text-light rounded ">
-                        <video controls class="img-fluid m-1 thumbnail"
-                            poster="/images/about/download (4).jpeg">
-                            <source
-                                src="/images/about/6740283-hd_1920_1080_30fps.mp4"
-                                type="video/mp4" />
-                        </video>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="video-cart text-light">
-                        <video controls class="img-fluid m-1 thumbnail" poster="/images/about/download (5).jpeg">
-                            <source
-                                src="/images/about/6893741-hd_1920_1080_25fps.mp4"
-                                type="video/mp4" />
-                        </video>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="video-cart text-light">
-                        <video controls class="img-fluid m-1 thumbnail" poster="/images/about/images.jpeg">
-                            <source
-                                src="/images/about/6893774-hd_1920_1080_25fps.mp4"
-                                type="video/mp4" />
-                        </video>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <end of testimonial-->
 
+    <section>
+        
+    </section>
+
+    <!--end of upcoming-->
+    
     <!--testinominal start-->
     <!-- Carousel wrapper -->
      <section class="container text-center mt-5">
+        <h3 class="fw-bold text-info text-center" id="testimonials">Testimonials</h3>
         <div id="carouselExampleFade" class="carousel slide carousel-fade">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -502,10 +500,10 @@
     <!--testinominal end-->
 
    <!--footer-->
-    <footer class="pt-5 bg-dark all-footer mt-5">
+   <footer class="pt-5 bg-dark all-footer mt-5">
     <div class="row container mx-3">
       <div class="col-6 col-md-2 mb-3">
-        <h5>About Us</h5>
+        <h5 class="text-info">About Us</h5>
         <ul class="nav flex-column">
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Mission</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Who Are We</a></li>
@@ -544,7 +542,7 @@
           <div class="d-flex flex-column flex-sm-row w-100 gap-2">
             <label for="newsletter1" class="visually-hidden">Email address</label>
             <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-            <button class="btn btn-primary" type="button">Subscribe</button>
+            <button class="btn btn-outline-info" type="button">Subscribe</button>
           </div>
         </form>
       </div>
@@ -558,7 +556,7 @@
         <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
       </ul>
     </div>
-    </footer>
+</footer>
 <!--end of footer--> 
     <script>
         const targetNumbers = [20, 200, 50, 250];
